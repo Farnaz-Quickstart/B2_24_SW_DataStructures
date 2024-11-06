@@ -1,7 +1,13 @@
-// Stack: Undo Functionality in Text Editors
-// In text editors, the undo feature is implemented using a stack. Each action 
-// (e.g., typing a letter, deleting a word) is pushed onto a stack, and when the user presses 
-// "undo," the last action is popped from the stack and reverted.
+// Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end, 
+// Example: Undo Functionality in Text Editors
+
+// The Stack Big O Time Complexities
+//     Push (Insertion): O(1)
+//     Pop (Removal): O(1)
+//     Peek Returns the top element without removing it.
+//     Searching: ????
+
+// The Stack Big O space Complexities
 
 class TextEditor {
   constructor() {

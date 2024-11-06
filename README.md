@@ -1,1 +1,1 @@
-# B2_24_SW_DataStructures
+# Data Structures and Algorithm Theory
