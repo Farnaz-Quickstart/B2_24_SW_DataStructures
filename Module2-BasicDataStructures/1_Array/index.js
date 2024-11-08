@@ -2,10 +2,10 @@ let className = ["Aidan", "Carolin", "Catalina", "Cidney", "James"]
 
 // Add Elements at the end
 // Adds the New Element and update the length
-// console.log(className); 
-// console.log("Result After Push"); 
-// className.push ("Martin")
-// console.log(className); 
+console.log(className); 
+console.log("Result After Push"); 
+className.push ("Martin")
+console.log(className); 
 
 // Add Element to the beginig
 // Creates Space at the Start, Inserts New Element at the Beginning, Updates the Array Length

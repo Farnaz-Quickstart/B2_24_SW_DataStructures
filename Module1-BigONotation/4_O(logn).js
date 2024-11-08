@@ -15,11 +15,25 @@ function binarySearch(arr, target) {
           right = middle - 1;
       }
   }
-
+  
   return -1;
 }
 
+BOOK
+
+
+
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+function searchElement (arr) {
+    for (i=0; i< numbers.length; i++) {
+        // compare number with the element
+    }
+}
+
+const number2 = [10, 0, 11, 12, 2]
+                         
+
 console.log(binarySearch(numbers, 5)); // O(log n), as binary search cuts the search space in half each step
 
 

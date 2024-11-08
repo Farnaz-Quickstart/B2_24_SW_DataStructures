@@ -1,5 +1,5 @@
 
-const people = ["Victor", "Thomas", "Mytisha", "kyle", "Matthew"];
+const classList = ["Victor", "Thomas", "Mytisha", "kyle", "Matthew"];
 
 // // Recursive function to pass the message
 // function passMessage(index) {
@@ -15,6 +15,14 @@ const people = ["Victor", "Thomas", "Mytisha", "kyle", "Matthew"];
 
 // Start passing the message from the first person
 // passMessage(0);
+
+function passMessage(index) {
+  console.log (`${classList[index]} to ${classList[index]} `)
+  passMessage(index+1)
+}
+
+
+
 
 
 function passMessageRecursive (index) {
