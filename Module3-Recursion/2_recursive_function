@@ -1,7 +1,9 @@
 function countDown(n) {
-  if (n==-1) return
   console.log (`${n}`)
-  countDown (n-1)
+  debugger;
+  // Base condition
+  if (n==0) return;
+  countDown(n-1)
 }
 
-countDown (2)
+countDown (5)

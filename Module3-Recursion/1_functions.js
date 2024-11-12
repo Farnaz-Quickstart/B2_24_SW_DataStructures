@@ -1,23 +1,25 @@
-function func_A(my_var) {
-  console.log (`function A ${my_var}`)
-  func_B(1)
-}
-
-function func_B(my_var) {
-  console.log (`function B ${my_var}`)
-  func_C(1)
-}
-
-function func_C(my_var) {
-  console.log (`function C ${my_var}`)
-  func_D(1)
-}
-
-function func_D(my_var) {
-  console.log (`function D ${my_var}`)
+function fun_A(mynumber) {
+  console.log (`This is function A ${mynumber}`)
   debugger;
-  if (my_var == 1) return;
-  func_A(1)
+  fun_B(1)
 }
 
-func_A(1)
+function fun_B(mynumber) {
+  console.log (`This is function B ${mynumber}`)
+  fun_C(1)
+}
+
+function fun_C(mynumber) {
+  console.log (`This is function C ${mynumber}`)
+  fun_D(2)
+}
+
+function fun_D(mynumber) {
+  console.log (`This is function D ${mynumber}`)
+  if (mynumber==2) return 
+  fun_A(1)
+}
+
+
+
+fun_A(1)
