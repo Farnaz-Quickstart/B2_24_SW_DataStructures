@@ -5,7 +5,7 @@
 // Operation: It retrieves the element at the specified index in the array. Accessing an element by index is a direct lookup.
 // Complexity: Regardless of the size of myArray, the time to access an element at a given index remains the same (constant time). 
 
-// Algorithm
+// Accessing an Array Element
 function getElement(array) {
   return array[0];
 }
